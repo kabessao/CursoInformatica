@@ -1,0 +1,19 @@
+LAN - Local Area Network.
+MAN - Metropolitan Area Network.
+WAN - Wide Area Network.
+
+Cluster - ideia de unir processamentos.
+
+Movimento ISO - International Organization for Standardization.
+Modelo de referencia OSI - Open System Interconnect. Substituido pelo DOD.
+
+CRC -> Calculo feito antes de enviar o arquivo.
+arquivos são enviados em partes.
+
+Partes da rede:
+	Aplicação
+	Transporte - quebra o arquivo em parte antes de enviar.
+	Rede
+	Fisica
+
+

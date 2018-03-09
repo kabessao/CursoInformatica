@@ -1,0 +1,15 @@
+o j.s. é ultilizado para:
+
+    -Ler elementos e textos;
+    -Realizar calculos;
+    -Interagir com o usuario;
+    -validação de formularios;
+    -emitir alertas e mensagens;
+
+<script>
+    comandos
+</script>
+
+Duas maneiras de ultilizar um script:
+    -Interno, dentro da tag <head> do html;
+    -Externo, em um arquivo *.js;

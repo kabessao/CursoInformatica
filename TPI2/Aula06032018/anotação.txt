@@ -1,0 +1,15 @@
+1. Faça um codigo em j.s. que deverá
+mostrar a soma, subtração, divisão e multiplicação de dois numeros.
+Apresente o resultado destas operações.
+(Feito)
+
+2. Faça um codigo em j.s. que receba três notas, calcule e exiba a média.
+Se a media for >=5 apresente a mensagem "aprovado" e mude a cor da pagina para azul.
+se a media for <5 apresente a mensagem "reprovado" e mude a cor da pagina para vermelho.
+
+3. usando o comando confirm faça um código j.s. que quando clicar no botão ok escreva a seguinte fraze na pagina
+na cor verde "você clicou em ok" e quando clicar em cancelar escreva a seguinte frase na pagina na cor amarela 
+"você clicou em cancelar".
+
+4. Faça um codigo em j.s. que verifique se o usuario e a senha estão corretos, caso estejam
+abra a pagina do google e se estiverem erradas apresente uma mensagem de "usuario invalido"
