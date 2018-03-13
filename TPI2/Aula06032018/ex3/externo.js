@@ -1,14 +1,7 @@
-var nome = prompt("Digite seu nome:");
-alert("O nome informado é\n"+ nome);
-var datanascimento = prompt("Qual ano você nasceu?");
-var anoatual = prompt("Qual o ano atual?");
-idade = anoatual - datanascimento;
-alert("Sua idade é: " + idade + "anos de idade");
-
-var suaidade = prompt("Digite a sua idade:");
-
-if (suaidade >= 18){
-	alert("Maior de idade");
-} else {
-	alert("Menor de idade");
+if (confirm("Aperte \"ok\" para a cor verde e \"Cancelar\" para a cor amarela")){
+	document.write("Voce clicou em \"Ok\"");
+	document.fgColor="green";
+}else{
+	document.write("Voce clicou em \"Cancelar\"");
+	document.fgColor="yellow";
 }

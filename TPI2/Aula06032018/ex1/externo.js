@@ -1,5 +1,5 @@
 var valor1 = parseInt(prompt("Digite o primeiro numero:"));
-opcao = prompt("Opção: (1)+, (2)-, (3)/, (4)-");
+opcao = prompt("Opção: (1)+, (2)-, (3)/, (4)*");
 valor2 = parseInt(prompt("Digite o segundo numero:"));
 switch(opcao){
 	case "1":
@@ -19,4 +19,5 @@ switch(opcao){
 		var resultado = 0;
 		break;
 }
+document.write("o resultado e: " + resultado);
 alert("Resultado \n" + resultado);
