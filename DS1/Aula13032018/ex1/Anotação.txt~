@@ -1,0 +1,4 @@
+testar se a variavel existe:
+if (isset($_POST['estadocivil']) ......
+
+

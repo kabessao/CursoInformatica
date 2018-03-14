@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Mostrar dados</title>
+</head>
+<body>
+<?php
+
+
+if ($_POST['estadocivil'] == null){
+	$estadocivil = $_POST['estadocivil'];
+	echo "teste";
+}
+echo "<p>Estado Civil: $estadocivil</p>";
+?>
+</body>
+</html>
