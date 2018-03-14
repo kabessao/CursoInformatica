@@ -1,0 +1,6 @@
+[submodule "AulaDeOrientaçãoAObjetos"]
+	path = AulaDeOrientaçãoAObjetos
+	url = https://github.com/kabessao/AulaDeOrientacaoAObjetos.git
+[submodule "ProgramacaoDeComputadores"]
+	path = ProgramacaoDeComputadores
+	url = https://github.com/kabessao/ProgramacaoDeComputadores1.git
