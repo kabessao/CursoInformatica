@@ -6,8 +6,8 @@ javascript
 * for: Utilizado quando sabemos o numero de vezes que os comandos serão repetidos
 
 syntaxe:
-----
-     for(valor inicial; condição; incremento/decremento){
-     comandos
-     }
-
+```
+for(valor inicial; condição; incremento/decremento){
+comandos
+}
+```
