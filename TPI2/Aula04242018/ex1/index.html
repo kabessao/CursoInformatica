@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Login com senha</title>
+		<script>
+			function Login(){
+				var Login = frmLogin.txtLogin.value;
+				var Senha = frmLogin.txtSenha.value;
+				if (Login == "" || Senha == "" ) {
+					alert("Login ou senha em branco");
+					return;
+				}
+				if (Login == "kabessao" && Senha == "naotem"){
+					document.write("logado com sucesso!!");	
+				}else{
+					document.write("Login ou senha incorretos!!");
+				}
+
+			}
+			function LetrasMaiusculas(){
+				frmLogin.txtLogin.value = frmLogin.txtLogin.value.toUpperCase();
+			}
+
+		</script>
+	<body>
+		<form name="frmLogin">
+			<input type="text" name="txtLogin" placeholder="Login" onKeyup="LetrasMaiusculas()"/><br/>
+			<input type="password" name="txtSenha" placeholder="senha" /><br>
+			<input type="button" value="Logar" onClick="Login()" />
+			<input type="reset" value="Limpar" />
+		</form>
+	</body>
+</html>

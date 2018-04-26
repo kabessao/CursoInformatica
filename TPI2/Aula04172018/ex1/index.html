@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Cálculo de IMC</title>
+	<script>
+		function calcular(){
+			if ((frmImc.txtPeso.value == "") || (frmImc.txtAltura.value == "")){
+				alert("se é burro cara\ndigite apenas numeros sua anta!!");
+				exit;
+			}
+			var Peso = parseFloat(frmImc.txtPeso.value);		
+			var Altura = parseFloat(frmImc.txtAltura.value);		
+			var Imc = Peso / (Altura * Altura);
+			alert("Seu Indice de massa corporal é de: " + Imc);
+		}
+	</script>
+	</head>
+	<body>
+		<form name="frmImc">
+			<input type="text" placeholder="Peso" name="txtPeso"/>
+			<input type="text" placeholder="Altura" name="txtAltura"/><br>
+			<input type="button" value="Calcular" onClick="calcular()"/>
+			<input type="reset" value="limpar"/>
+		</form>
+	</body>
+</html>
