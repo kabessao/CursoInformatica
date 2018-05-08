@@ -1,0 +1,10 @@
+Atividade 4
+erro:
+uso incorreto de caracteres para envolver um argumento
+‘30079000' 
+
+Atividade 6
+erro:
+escrita incorreta do nome do atributo
+-produtos => produto
+

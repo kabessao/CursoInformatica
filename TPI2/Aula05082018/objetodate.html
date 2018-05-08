@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Objeto date</title>
+    </head>
+    <body>
+        <script>
+            var data = new Date();
+            diasdasemana= data.getDay;
+            dia = data.getdate();
+            mesl = data.getMonth();
+            ano= data.getFullYear();
+            semana = new Array();
+            semana[0]="Dom";
+            semana[1]="Seg";
+            semana[2]="Ter";
+            mes = new Array();
+            mes[1]="Jan";
+            mes[2]="Fev";
+            mes[3]="Mar";
+            // ...
+            document.write(semana[diasdasemana]+","+ dia +" de " + mes[mesl]+ " de "+ ano);
+            
+
+        </script>
+    </body>
+</html>

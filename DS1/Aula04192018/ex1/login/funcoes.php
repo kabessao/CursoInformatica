@@ -22,6 +22,7 @@
 					<img src=\"img/logo.jpg\">
 					</div>
 					<div class=\"centro\">";
+					menu();
 	}
 
 
@@ -34,4 +35,18 @@
 			</body>
 		</html>";
 	}
-		
+
+	function menu() {
+		@session_start();
+		if(isset($_SESSION['nome'])){
+		echo '<div class="menu">
+		<a href="liberado.php">Inicio</a>|
+		<a href="logout.php"><span class="glyphicon glyphicon-log-out"></span>Sair</a>|
+		<a href="for.php">For</a>|
+		<a href="form_tabuada.php">For tabuada</a>|
+		<a href="arquivo_leitura.php">ler arquivo</a>|
+		<a href="form_arquivo.php">Adicionar nome no arquivo</a>|
+		</div>';
+		}
+	}
+			

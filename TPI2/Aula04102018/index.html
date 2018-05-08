@@ -1,39 +1,50 @@
 <html>
-<head>
-<title>Exemplo javascript</title>
-<script language="javascript">
-function limpar(){
-frmMedia.txtNota1.value="";
-frmMedia.txtNota2.value="";
-frmMedia.txtMedia.value="";
-}
-function calcular(){
-var nota1, nota2, media;
-nota1 = frmMedia.txtNota1.value;
-nota2 = frmMedia.txtNota2.value;
-media = (parseFloat(nota1) + parseFloat(nota2))/2;
-frmMedia.txtMedia.value = media;
-if (media == 10) {
-alert("Super Aprovado");
-limpar();
-}else if ((media>=5) && (media<10)){
-alert("Aprovado");
-}else {
-alert ("Reprovado");
-}
-}
-</script>
-</head>
-<body>
-<h1>Utilizando Javascript</h1>
-<h2>Formularios e Eventos</h2>
-<form name="frmMedia">
-Nota 1: <input type="text" name="txtNota1"/><br>
-Nota 2: <input type="text" name="txtNota2"/><br>
-<br><input type="button" value="Calcular" onclick="calcular()" ><br>
-<br><input type="button" value="Limpar" onclick="limpar()"><br>
-<br>Media <input type="text" name="txtMedia"/><br>
-</form>
-</body>
-</html>
 
+<head>
+    <title>Exemplo javascript</title>
+    <script language="javascript">
+        function limpar() {
+            frmMedia.txtNota1.value = "";
+            frmMedia.txtNota2.value = "";
+            frmMedia.txtMedia.value = "";
+        }
+        function calcular() {
+            var nota1, nota2, media;
+            nota1 = frmMedia.txtNota1.value;
+            nota2 = frmMedia.txtNota2.value;
+            media = (parseFloat(nota1) + parseFloat(nota2)) / 2;
+            frmMedia.txtMedia.value = media;
+            if (media == 10) {
+                alert("Super Aprovado");
+                limpar();
+            } else if ((media >= 5) && (media < 10)) {
+                alert("Aprovado");
+            } else {
+                alert("Reprovado");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Utilizando Javascript</h1>
+    <h2>Formularios e Eventos</h2>
+    <form name="frmMedia">
+        Nota 1:
+        <input type="text" name="txtNota1" />
+        <br> Nota 2:
+        <input type="text" name="txtNota2" />
+        <br>
+        <br>
+        <input type="button" value="Calcular" onclick="calcular()">
+        <br>
+        <br>
+        <input type="button" value="Limpar" onclick="limpar()">
+        <br>
+        <br>Media
+        <input type="text" name="txtMedia" />
+        <br>
+    </form>
+</body>
+
+</html>

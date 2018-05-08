@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Abridor de janelas</title>
+        <script>
+            function abrir() {
+                open("popup.html","janela", "url= no, width=250, height=100, top=300, left=110");
+            }
+            function data() {
+                open("date.html","janela","location=no, width=250, height=100, top=300, left=110");
+            }
+            function objetodate() {
+                open("objetodate.html","janela");
+            }
+        </script>
+    </head>
+    <body>
+        <form action="">
+            <input type="button" value="Abrir" onclick="abrir()">
+            <input type="button" value="date" onclick="data()">
+            <input type="button" value="Objeto date" onclick="objetodate()">
+        </form>
+    </body>
+</html>
