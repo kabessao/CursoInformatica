@@ -8,3 +8,37 @@ erro:
 escrita incorreta do nome do atributo
 -produtos => produto
 
+Atividade 8
+erro:
+uso incorreto de caracteres para envolver um argumento
+‘ Jo%’
+
+Atividade 9
+erro:
+coluna presente na clausula 'where' não existe
+-faixa_comis => faixa
+
+Atividade 10
+erro:
+escrita incorreta do nome do atributo
+-clientes => cliente
+
+Atividade 11
+erro:
+escrita incorreta do nome do atributo
+-salfixo => sal_fixo
+
+Atividade 13
+erro:
+comando não condiz com o exemplo proposto
+"...todos os produtos que tenham a unidade 'kg'"
+"..WHERE unidade = 'M'"
+
+Atividade 14
+erro: 
+nomeando o alias com aspas ao inves de apostrofo
+... AS "Novo Salario"...
+nome da coluna errado
+-salfixo => sal_fixo
+
+

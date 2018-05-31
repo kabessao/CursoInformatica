@@ -19,7 +19,10 @@
 					<div class=\"jumbotron\">
 					<div class=\"principal\">
 					<div class=\"cabecalho\">
-					<img src=\"img/logo.jpg\">
+					<div class=\"titulo\">
+					<img src=\"img/logo_etec.png\" class=\"img-rounded\" alt=\"Etecleme\" width=\"94\" height=\"60\">
+					<br>Curso de Informática
+					</div>
 					</div>
 					<div class=\"centro\">";
 					menu();
@@ -38,15 +41,29 @@
 
 	function menu() {
 		@session_start();
-		if(isset($_SESSION['nome'])){
-		echo '<div class="menu">
-		<a href="inicio:.php">Inicio</a>|
-		<a href="logout.php"><span class="glyphicon glyphicon-log-out"></span>Sair</a>|
-		<a href="for.php">For</a>|
-		<a href="form_tabuada.php">For tabuada</a>|
-		<a href="arquivo_leitura.php">ler arquivo</a>|
-		<a href="form_arquivo.php">Adicionar nome no arquivo</a>|
-		</div>';
-		}
+		echo '<a href="index.php">
+		<span class="glyphicon glyphicon-home">
+	</span> Inicio
+		</a> | 
+		<a href="cadusuario.php">
+		<span class="glyphicon glyphicon-list-alt">
+	</span> Cadastro de usuário
+		</a> | 
+		<a href="consultaenquete.php">
+		<span class="glyphicon glyphicon-list-alt">
+	</span> Consulta enquete
+		</a> | 
+		<a href="consultaenquete_detalhe.php">
+		<span class="glyphicon glyphicon-list-alt">
+	</span> Consulta totais
+		</a> | 
+		<a href="login.php">
+		<span class="glyphicon glyphicon-user">
+	</span> Login
+		</a> | 
+		<a href="logout">
+		<span class="glyphicon glyphicon-off">
+	</span> Sair
+		</a>';
 	}
 			

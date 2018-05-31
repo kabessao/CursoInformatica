@@ -1,0 +1,18 @@
+O que é jQuery?
+
+jQuery é uma biblioteca que deixa mais facil e mais rapida 
+a construção de paginas web feitas em JavaScript. Geralmente é possivel 
+escrever uma unica linha de codigo para fazer o que iria ter mais de 20 
+linhas em um codigo JavaScript normal.
+
+
+
+O que se pode fazer com o jQuery?
+
+Elementos animados;
+
+Slideshow de imagens;
+
+Fazer menus 'drop down';
+
+etc...

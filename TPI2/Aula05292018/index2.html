@@ -1,0 +1,26 @@
+<html>
+    <head> 
+        <title>Exemplo jQuery 2</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="../jquery.js">
+        </script>
+        <script>
+            $(document).ready(function() {
+                $("#h").click(function() {
+                    $("p").hide();
+                    $("h1").hide();
+                });
+                $("#s").click(function() {
+                    $("p").show();
+                    $("h1").show();
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <p>Clique nos botões abaixo</p>
+        <h1>Clique nos botões abaixo</h1>
+        <button id="h">Esconder</button>
+        <button id="s">Exibir</button>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Exemplo jQuery 3</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="../jquery.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    while (true){
+                    $("div").animate({left: '250px'});
+                    $("div").animate({left: '0px'});
+}
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <button>Iniciar animação</button><br>
+        <div style="background:blue;
+        height: 100px;width: 100px;
+        position: absolute;"></div>
+
+    </body>
+</html>
