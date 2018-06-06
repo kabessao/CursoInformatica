@@ -31,7 +31,8 @@ LOCK TABLES `games` WRITE;
 
 UNLOCK TABLES;
 
+insert into usuarios (nome, email, senha) values ('henrique', 'nao.te.interessa@gmail.com', '1234');
 
 
-show databases;
+
 

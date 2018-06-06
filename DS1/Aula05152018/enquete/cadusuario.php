@@ -26,5 +26,26 @@ cabecalho("Cadastro de usuários");
 </form>
 
 <?php
+echo '<table width="100%" border>
+<tr>
+<td><b>Codigo</b></td>
+<td><b>Nome</b></td>
+<td><b>Email</b></td>
+</tr>
+';
+
+$consulta = $pdo->prepare("select * from usuarios");
+$consulta->execute();
+
+while($row = $consulta->fetch(PDO::FETCH_ASSOC)){
+    echo "<tr>
+    <td>$row[codigo]</td>
+    <td>$row[nome]</td>
+    <td>$row[email]</td>
+    ";
+};
+
+echo '</table>';
+
 rodape();
 ?>
