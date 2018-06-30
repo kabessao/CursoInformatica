@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Meu exemplo jQuery</title>
+        <script src="../jquery.js"></script>
+        <script src="../cycle.js"></script>
+        <script type="text/javascript">
+        $(function() {
+            $('imagens ul').cycle({
+                fx: 'zoom',
+                speed: 2000,
+                next: '#prox',
+                prev: '#ant',
+                pager: '#pager'
+            })
+        })
+        </script>
+    </head>
+    <body>
+        <div id="imagens">
+            <ul>
+                <li>
+                    <img src="primeira" width="200" height="200">
+                </li>
+                <li>
+                    <img src="segunda" width="200" height="200">
+                </li>
+                <li>
+                    <img src="terceira" width="200" height="200">
+                </li>
+            </ul>
+            <div>
+                <a href="#" id="ant">anterior</a>
+                <a href="#" id="prox">proximo</a>
+            </div>
+        </div>
+    </body>
+</html>

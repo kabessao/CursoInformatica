@@ -2,7 +2,7 @@
 
 require "funcoes.php";
 require "config.php";
-
+acesso();
 cabecalho("Cadastro de usuários");
 
 ?>
@@ -31,6 +31,7 @@ echo '<table width="100%" border>
 <td><b>Codigo</b></td>
 <td><b>Nome</b></td>
 <td><b>Email</b></td>
+<td><b>Opções</b></td>
 </tr>
 ';
 
@@ -42,6 +43,8 @@ while($row = $consulta->fetch(PDO::FETCH_ASSOC)){
     <td>$row[codigo]</td>
     <td>$row[nome]</td>
     <td>$row[email]</td>
+    <td><a href=\"alterarusuarios.php?codigo=$row[codigo]\" class=\"btn btn-success btn-xs\">Alterar</a>
+    <a href=\"excluirusuarios.php?codigo=$row[codigo]\" class=\"btn btn-danger btn-xs\" onclick=\"return confirm('Confirma a exclusão do registro?')\">Excluir</a></td>
     ";
 };
 
